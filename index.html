@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Web</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <p class="text-3xl pb-4 font-bold pl-6 pt-6 bg-green-100" style="color: palevioletred;">Hello World</p>
+    <hr/>
+    <p>Nama Saya <br/> Putri</p>
+    <h1>Ini heading 1</h1>
+    <h2>Ini heading 2</h2>
+    <h3>Ini heading 3</h3>
+    <h4>Ini heading 4</h4>
+    <h5>Ini heading 5</h5>
+    <h6>Ini heading 6</h6>
+    <p>Teks ini ada <b>bold</b> <i>italic</i> nya.</p>
+    <p>Ini tulisan yang ke <sub>bawah</sub>dan ke <sup>atas</sup></p>
+    
+    <h1 id="poin">Bullet Point</h1>
+    <ul>
+        <li>Mangga <p>buah berwarna kuning yang manis</p></li>
+        <li>Jeruk <p>buah berwarna orange yang berbentuk bulat</p></li>
+        <li>Apel</li>
+    </ul>
+    
+    <h1>Urutan Angka</h1>
+    <p>Cara mengupas mangga</p>
+    <ol type="1">
+        <li>Beli mangganya</li>
+        <li>Cuci dulu buahnya</li>
+        <li>Kupas dan potong menggunakan pisau</li>
+        <li>Mangga siap dinikmati</li>
+    </ol>
+
+    <h1>Tabel</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Jurusan</th>
+                <th>Tahun masuk</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Informatika</td>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <td>Elektro</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>Mesin</td>
+                <td>2022</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Gambar</h1>
+    <img src="./coba.jpg" width="100px" alt="mgtss">
+    <a href="https://www.youtube.com" target="_blank">link youtube</a>
+    <a href="#poin">go to bullet point</a>
+
+    <h1>Form</h1>
+    <form>
+        <label>Nama</label>
+        <input type="text"/>
+        <br/>
+        <label>Umur</label>
+        <input type="number" min="0" max="120"/>
+        <br/>
+        <label>Password</label>
+        <input type="password">
+        <br/>
+        <label>Jenis Kelamin</label>
+        <input type="radio" value="male">Laki-laki
+        <input type="radio" value="female">Perempuan
+        <input type="submit" value="kirim">
+        <button type="submit">Kirim</button>
+        
+        <br/>
+        <label>Makanan Favorit</label>
+        <select>
+            <option value="nasi goreng">Nasi Goreng</option>
+            <option value="sate">Sate</option>
+            <option value="mie ayam">Mie Ayam</option>
+            <option value="bakso">Bakso</option>
+        </select>
+        
+        
+        <br/>
+        <label>Komentar</label>
+        <textarea rows="5" cols="30" placeholder="Tulis komentar anda disini"></textarea>
+    </form>
+
+</body>
+</html>
